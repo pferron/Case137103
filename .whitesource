@@ -1,5 +1,6 @@
 {
   "scanSettings": {
+    "enableIaC": true,
     "configMode": "AUTO",
     "configExternalURL": "",
     "projectToken": "",
@@ -13,6 +14,7 @@
     "snippetSize": 10
   },
   "checkRunSettings": {
+    "iacCheckRunConclusionLevel": "failure",
     "vulnerableCheckRunConclusionLevel": "failure",
     "displayMode": "diff",
     "useMendCheckNames": true
